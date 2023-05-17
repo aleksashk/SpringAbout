@@ -1,5 +1,6 @@
 package com.philimonov.quoters;
 
+@Profiling
 public class TerminatorQuoter implements Quoter {
     @InjectRandomInt(min = 2, max = 7)
     private int repeat;
