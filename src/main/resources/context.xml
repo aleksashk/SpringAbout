@@ -10,4 +10,5 @@
     </bean>
     <bean class="com.philimonov.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="com.philimonov.quoters.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="com.philimonov.quoters.PostProxyInvokerContextListener"/>
 </beans>
